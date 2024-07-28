@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Challenge ORACLE ONE</title>
+</head>
+<body>
+    <main class="apresentacao">
+        <textarea class="area_texto" id="msgID" rows="4" cols="50" placeholder="Digite seu texto aqui."></textarea>
+        <a href="https://github.com/AllissonDEV" target="_blank">
+            <span class="iconGIT"><i class="bi bi-github"></i></i></span>
+        </a>
+        <p class="txt-regras"><i class="bi bi-exclamation-circle-fill"></i>  Apenas letras minúsculas e sem acento.</p>
+        <section id="msg_sem_texto" class="infos_lado_direito">
+            <img id="img_Cadeado" class="img_Cadeado" src="./assets/cadeado.png" alt="imagem cadeado">
+            <p id="msg_sem_texto_1" class="p1">Nenhuma mensagem encontrada</p>
+            <P id="msg_sem_texto_2" class="p2" >Digite um texto que você deseja criptografar ou descriptografar.</P>
+        </section>
+        <button onclick="criptografar" id="criptografar" class="btn-encriptar">Criptografar</button>
+        <button onclick="descriptografar" id="descriptografar" class="btn-descriptar" >Descriptografar</button>
+        <div id="resultado_cript" class="resultado_cript">
+            <p class="frase-cript"></p>
+        <button onclick="copiar" class="copiar">Copiar</button>
+        </div>
+    <script src="script.js"></script>
+    </main>
+</body>
+</html>

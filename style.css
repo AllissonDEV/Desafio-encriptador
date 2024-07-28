@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.body {
+    display: flex;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.apresentacao {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgb(250, 249, 247);
+    background-image: url(./assets/matrix.gif);
+    background-size: cover;
+}
+
+::placeholder {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    color: #0A3871;
+    border: 0;
+    border-radius: 0;
+    outline: none !important;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.area_texto {
+    font-size: 32px;
+    border: 0;
+    resize: none;
+    padding: 10% 0% 0% 10% ;
+    color: #0A3871;
+    outline: none;
+    line-height: 48px;
+    box-shadow: 0px 0px 10px 5px rgb(167, 253, 179);
+    height: 61%;
+}
+
+.iconGIT {
+    font-size: 45px;
+    margin: 0;
+    color: black;
+    border: 1px;
+    border-radius: 1px;
+    position: absolute;
+    left: 0;
+    padding: 2% ;
+    box-shadow: #0A3871;
+}
+
+.img_Cadeado {
+    align-items: center;
+}
+
+.p1 {
+    font-size: 24px;
+    line-height: 120%;
+    right: 0;
+
+}
+
+.p2 {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    left: 100%;
+    padding-top: 3%;
+}
+
+
+.infos_lado_direito {
+    box-sizing: border-box;
+    background-color: #EEEDEB;
+    padding: 1% 2% 5% 5%;
+    margin: 0% 1% 1% 1%;
+    width: 500px;
+    height: 80vh;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    right: 0;
+    top: 0;
+    position: absolute;
+    box-shadow: 0px 0px 10px 5px rgb(167, 253, 179);
+}
+
+.btn-encriptar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 16px;
+    padding: 1% 5% 1% 5%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: darkblue;
+    color: white;
+}
+
+.btn-descriptar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 16px;
+    padding: 1% 5% 1% 5%;
+    margin-bottom: 3%;
+    margin-left: 30%;
+    border-radius: 20px;
+
+}
+
+.frase-cript {
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 430px; /* Define a largura da caixa */ /* Define a borda da caixa */
+    height: 400px;
+    padding: 10px 20px 10px 10px; /* Define o preenchimento interno da caixa */
+    margin: 60px 30px 20px 20px; /* Define a margem externa da caixa */
+    word-wrap: break-word; /* Garante que palavras longas quebrem corretamente */
+    padding-right: 20px;
+    color: #0A3871;
+}
+
+.copiar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+    padding: 1% 5% 1% 5%;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    background-color: lime;
+    box-shadow: 0px 0px 8px 3px rgb(167, 253, 179);
+}
+
+.txt-regras {
+    color: white;
+    margin-top: 1%;
+    margin-left: 6%;
+    font-size: 12px;
+}
+
+@media (max-width: 1366px) {
+    ::placeholder {
+        font-family: "Inter", sans-serif;
+        font-size: 32px;
+        color: #0A3871;
+        border: 0;
+        border-radius: 0;
+        outline: none !important;
+        text-decoration: none;
+        flex-direction: column;
+    }
+        
+    .area_texto {
+        position: absolute;
+        font-size: 32px;
+        border: 0;
+        resize: none;
+        padding: 10% 0% 0% 10% ;
+        color: #0A3871;
+        outline: none;
+        line-height: 48px;
+        box-shadow: 0px 0px 10px 5px rgb(167, 253, 179);
+        height: 60%;
+        width: 50%;
+    }
+        
+    .iconGIT {
+        font-size: 45px;
+        margin: 0;
+        color: black;
+        border: 1px;
+        border-radius: 1px;
+        position: absolute;
+        left: 0;
+        padding: 2% ;
+        box-shadow: #0A3871;
+    }
+        
+    .img_Cadeado {
+        align-items: center;
+    }
+        
+    .p1 {
+        font-size: 24px;
+        line-height: 120%;
+        right: 0;
+        
+    }
+        
+    .p2 {
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        left: 100%;
+        padding-top: 3%;
+    }
+        
+        
+    .infos_lado_direito {
+        box-sizing: border-box;
+        background-color: #EEEDEB;
+        padding: 0% 2% 5% 5%;
+        margin: 0% 1% 1% 1%;
+        width: 300px;
+        height: 80vh;
+        align-content: center;
+        text-align: center;
+        flex-direction: column;
+        right: 0;
+        top: 0;
+        position: absolute;
+        box-shadow: 0px 0px 10px 5px rgb(167, 253, 179);
+    }
+        
+    .btn-encriptar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 16px;
+        padding: 1% 5% 1% 5%;
+        margin-bottom: 3%;
+        margin-left: 5%;
+        border-radius: 20px;
+        background-color: darkblue;
+        color: white;
+    }
+        
+    .btn-descriptar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 16px;
+        padding: 1% 5% 1% 5%;
+        margin-bottom: 3%;
+        margin-left: 35%;
+        border-radius: 20px;
+    }
+        
+    .frase-cript {
+        font-size: 24px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200px; /* Define a largura da caixa */ /* Define a borda da caixa */
+        height: 400px;
+        padding: 10px 20px 10px 10px; /* Define o preenchimento interno da caixa */
+        margin: 60px 30px 20px 20px; /* Define a margem externa da caixa */
+        word-wrap: break-word; /* Garante que palavras longas quebrem corretamente */
+        padding-right: 20px;
+        color: #0A3871;
+        border: 1px solid black;
+    }
+        
+    .copiar {
+        position: absolute;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        font-size: 16px;
+        padding: 1% 5% 1% 5%;
+        border-radius: 20px;
+        margin-bottom: 2%;
+        margin-right: 5%;
+        background-color: lime;
+        box-shadow: 0px 0px 8px 3px rgb(167, 253, 179);
+    }
+        
+    .img_Cadeado, .p1, .p2 {
+        z-index: 10;
+    }
+    .txt-regras {
+        position: absolute;
+        color: white;
+        bottom: 0;
+        margin-left: 5%;
+        margin-bottom: 7%;
+    }
+}
+
+@media (max-width: 900px) {
+    ::placeholder {
+        font-family: "Inter", sans-serif;
+        font-size: 32px;
+        color: #0A3871;
+        border: 0;
+        border-radius: 0;
+        outline: none !important;
+        text-decoration: none;
+        flex-direction: column;
+    }
+    
+    .area_texto {
+        position: absolute;
+        font-size: 32px;
+        border: 0;
+        resize: none;
+        padding: 13% 0% 0% 3%;
+        color: #0A3871;
+        outline: none;
+        line-height: 48px;
+        box-shadow: 0px 0px 10px 5px rgb(167, 253, 179);
+        height: 60%;
+        width: 45%;
+    }
+    
+    .iconGIT {
+        font-size: 45px;
+        margin: 0;
+        color: black;
+        border: 1px;
+        border-radius: 1px;
+        position: absolute;
+        left: 0;
+        padding: 2% ;
+        box-shadow: #0A3871;
+    }
+    
+    .infos_lado_direito {
+        box-sizing: border-box;
+        background-color: #EEEDEB;
+        padding: 0% 2% 5% 5%;
+        margin: 0% 1% 1% 1%;
+        width: 300px;
+        height: 70vh;
+        align-content: center;
+        text-align: center;
+        flex-direction: column;
+        right: 0;
+        top: 0;
+        position: absolute;
+        box-shadow: 0px 0px 10px 5px rgb(167, 253, 179);
+    }
+    
+    .btn-encriptar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 16px;
+        padding: 1% 5% 1% 5%;
+        margin-bottom: 3%;
+        margin-left: 5%;
+        border-radius: 20px;
+        background-color: darkblue;
+        color: white;
+    }
+    
+    .btn-descriptar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 16px;
+        padding: 1% 5% 1% 5%;
+        margin-bottom: 3%;
+        margin-left: 40%;
+        border-radius: 20px;
+    
+    }
+    
+    .frase-cript {
+        font-size: 24px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200px; /* Define a largura da caixa */ /* Define a borda da caixa */
+        height: 400px;
+        padding: 10px 20px 10px 10px; /* Define o preenchimento interno da caixa */
+        margin: 60px 30px 20px 20px; /* Define a margem externa da caixa */
+        word-wrap: break-word; /* Garante que palavras longas quebrem corretamente */
+        padding-right: 20px;
+        color: #0A3871;
+        border: 1px solid black;
+    }
+    
+    .copiar {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 16px;
+        padding: 1% 5% 1% 5%;
+        border-radius: 20px;
+        margin-bottom: 30%;
+        margin-right: 9%;
+        background-color: lime;
+        box-shadow: 0px 0px 8px 3px rgb(167, 253, 179);
+    }
+    
+    .img_Cadeado, .p1, .p2 {
+        z-index: 4;
+    }
+    
+    .txt-regras {
+        position: absolute;
+        color: white;
+        bottom: 0;
+        margin-left: 4%;
+        margin-bottom: 9%;
+    }
+}
+
+@media (max-width: 480px) {
+    ::placeholder {
+        font-family: "Inter", sans-serif;
+        font-size: 32px;
+        color: #0A3871;
+        border: 0;
+        border-radius: 0;
+        outline: none !important;
+        text-decoration: none;
+        flex-direction: column;
+    }
+    
+    .area_texto {
+        position: absolute;
+        font-size: 16px;
+        border: 0;
+        resize: none;
+        padding: 13% 0% 0% 3%;
+        color: #0A3871;
+        outline: none;
+        line-height: 48px;
+        box-shadow: 0px 0px 10px 5px rgb(167, 253, 179);
+        height: 57%;
+        width: 43%;
+    }
+    
+    .iconGIT {
+        font-size: 22px;
+        margin: 0;
+        color: black;
+        border: 1px;
+        border-radius: 1px;
+        position: absolute;
+        left: 0;
+        padding: 2% ;
+        box-shadow: #0A3871;
+    }
+    
+    .infos_lado_direito {
+        box-sizing: border-box;
+        background-color: #EEEDEB;
+        padding: 0% 2% 5% 5%;
+        margin: 0% 1% 1% 1%;
+        width: 40%;
+        height: 65vh;
+        align-content: center;
+        text-align: center;
+        flex-direction: column;
+        right: 0;
+        top: 0;
+        position: absolute;
+        box-shadow: 0px 0px 10px 5px rgb(167, 253, 179);
+    }
+    
+    .btn-encriptar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 14px;
+        padding: 1% 5% 1% 5%;
+        margin-bottom: 3%;
+        margin-left: 5%;
+        border-radius: 20px;
+        background-color: darkblue;
+        color: white;
+    }
+    
+    .btn-descriptar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 14px;
+        padding: 1% 5% 1% 5%;
+        margin-bottom: 3%;
+        margin-left: 50%;
+        border-radius: 20px;
+    
+    }
+    
+    .frase-cript {
+        font-size: 16px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30%; /* Define a largura da caixa */ /* Define a borda da caixa */
+        height: 45%;
+        padding: 5% 5% 5% 5%; /* Define o preenchimento interno da caixa */
+        margin: 60px 1px 20px 10px; /* Define a margem externa da caixa */
+        word-wrap: break-word; /* Garante que palavras longas quebrem corretamente */
+        color: #0A3871;
+        border: 1px solid rgb(255, 0, 0);
+    }
+    
+    .copiar {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 16px;
+        padding: 1% 5% 1% 5%;
+        border-radius: 20px;
+        margin-bottom: 50%;
+        margin-right: 9%;
+        background-color: lime;
+        box-shadow: 0px 0px 8px 3px rgb(167, 253, 179);
+    }
+    
+    .img_Cadeado, .p1, .p2 {
+        z-index: 4;
+    }
+    
+    .txt-regras {
+        font-size: 12px;
+        position: absolute;
+        color: white;
+        bottom: 0;
+        margin-left: 4%;
+        margin-bottom: 15%;
+    }
+}
