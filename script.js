@@ -1,4 +1,3 @@
-// Função de criptografia
 function criptografar() {
     const textarea = document.getElementById('msgID');
     const texto = textarea.value;
@@ -10,8 +9,6 @@ function criptografar() {
     exibirResultado(textoCriptografado);
     esconderMensagemSemTexto();
 }
-
-// Função de descriptografia
 function descriptografar() {
     const textarea = document.getElementById('msgID');
     const texto = textarea.value;
